@@ -1,0 +1,25 @@
+@use "../../assets/styles/mixin" as mixin;
+
+.header {
+  position: relative;
+  padding: 10px 20px;
+  box-shadow: var(--box-shadow-nav);
+  color: var(--primary);
+  img {
+    width: 70px;
+    cursor: pointer;
+  }
+  .desktopHeader {
+    @include mixin.xs {
+      display: none;
+    }
+  }
+  .mobileHeader {
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+    @include mixin.xs {
+      display: block;
+    }
+  }
+}

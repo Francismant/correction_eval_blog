@@ -1,0 +1,27 @@
+.list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.poster {
+  width: 500px;
+  height: 600px;
+  margin: 30px;
+}
+
+.year {
+  color: var(--error);
+}
+
+.resume {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  line-height: 1.8;
+  text-align: left;
+}
